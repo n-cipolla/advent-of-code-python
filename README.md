@@ -3,9 +3,9 @@ My solutions to the [Advent of Code](https://adventofcode.com/) problems for the
 
 Individual solutions located in `year##/days/day##`.
 
-| Year | Completion Percentage            |
-|------|----------------------------------|
-| 2022 | ![](https://geps.dev/progress/4) |
+| Year | Completion Percentage             |
+|------|-----------------------------------|
+| 2022 | ![](https://geps.dev/progress/12) |
 
 
 Note: These solutions are not intended to be elegant; I began solving Advent of Code problems in 2023
