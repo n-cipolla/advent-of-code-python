@@ -1,2 +1,5 @@
+from tools import read_strings_from_file
+
+
 def part1():
-    print("hi")
+    my_input = read_strings_from_file('day02.txt')

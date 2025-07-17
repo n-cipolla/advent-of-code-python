@@ -50,34 +50,34 @@ def part2():
         elves_and_sums[elf] = sum(elves_and_counts[elf])
 
     total = 0
-    max = 0
+    my_max = 0
     big_elf = 0
     for elf in elves_and_sums:
-        if max < elves_and_sums[elf]:
-            max = elves_and_sums[elf]
+        if my_max < elves_and_sums[elf]:
+            my_max = elves_and_sums[elf]
             big_elf = elf
 
-    total += max
+    total += my_max
     elves_and_sums[big_elf] = 0
 
-    max = 0
+    my_max = 0
     big_elf = 0
     for elf in elves_and_sums:
-        if max < elves_and_sums[elf]:
-            max = elves_and_sums[elf]
+        if my_max < elves_and_sums[elf]:
+            my_max = elves_and_sums[elf]
             big_elf = elf
 
-    total += max
+    total += my_max
     elves_and_sums[big_elf] = 0
 
-    max = 0
+    my_max = 0
     big_elf = 0
     for elf in elves_and_sums:
-        if max < elves_and_sums[elf]:
-            max = elves_and_sums[elf]
+        if my_max < elves_and_sums[elf]:
+            my_max = elves_and_sums[elf]
             big_elf = elf
 
-    total += max
+    total += my_max
     elves_and_sums[big_elf] = 0
 
     print(total)
