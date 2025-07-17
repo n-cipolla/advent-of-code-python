@@ -41,6 +41,7 @@ def part1():
 
     print(total)
 
+
 def part2():
     my_input = read_strings_from_file('day02.txt')
     total = 0
