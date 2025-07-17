@@ -205,3 +205,15 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+### AoC ###
+year15/inputs
+year16/inputs
+year17/inputs
+year18/inputs
+year19/inputs
+year20/inputs
+year21/inputs
+year22/inputs
+year23/inputs
+year24/inputs
